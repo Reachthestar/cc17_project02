@@ -1,0 +1,39 @@
+/* ul {
+  display: flex;
+  gap: 8px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+.navbar {
+  display: flex;
+  gap: 8px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.table-user {
+  background-color: beige;
+  border: 1px solid silver;
+  border-collapse: collapse;
+  /* gathering border in one line */
+  width: 500px;
+}
+
+.table-user td,
+.table-user th {
+  border: 1px solid red;
+  padding: 8px;
+  text-align: center;
+}
